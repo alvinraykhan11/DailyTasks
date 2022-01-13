@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B812D5</color>
+    <color name="colorPrimaryDark">#79008B</color>
+    <color name="colorAccent">#4885ed</color>
+
+    <color name="colorListPrimary">#0060FF</color>
+    <color name="colorListPrimaryDark">#0D26C0</color>
+    <color name="colorListAccent">#9FAAE7</color>
+
+
+    <color name="colorEditPrimary">#0F4ABE</color>
+    <color name="colorEditPrimaryDark">#0024FF</color>
+    <color name="colorEditAccent">#959ECF</color>
+
+    <color name="colorHeading">#0027FF</color>
+    <color name="colorMessage">#5461AC</color>
+    <color name="colorContent">#0055FF</color>
+    <color name="colorHint">#AB75C7</color>
+    <color name="colorNotification">#880329</color>
+
+    <color name="colorDateTimeBackground">#1ECBE4</color>
+    <color name="colorDateTimeFont">#090808</color>
+
+    <color name="list_heading">#043786</color>
+    <color name="list_date_and_time">#5A0303</color>
+
+    <color name="colorToDoDisplay">#090808</color>
+    <color name="colorToDoValue">#8D0A0A</color>
+
+    <color name="colorButton">#8D0A0A</color>
+    <color name="colorButtonText">#FFFFFF</color>
+
+
+
+
+</resources>

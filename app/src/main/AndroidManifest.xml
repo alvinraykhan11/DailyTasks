@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mercubuanauasmobile.todolist">
+
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/todolist"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/todolist"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.mercubuanauasmobile.todolist.ToDoActivity"
+            android:parentActivityName="com.mercubuanauasmobile.todolist.ListActivity"
+            android:screenOrientation="portrait">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mercubuanauasmobile.todolist.ListActivity" />
+        </activity>
+        <activity
+            android:name="com.mercubuanauasmobile.todolist.EditActivity"
+            android:parentActivityName="com.mercubuanauasmobile.todolist.ListActivity"
+            android:theme="@style/EditTheme">
+
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mercubuanauasmobile.todolist.ListActivity" />
+        </activity>
+        <activity
+            android:name="com.mercubuanauasmobile.todolist.ListActivity"
+            android:theme="@style/ListTheme"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mercubuanauasmobile.todolist.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.mercubuanauasmobile.todolist.NotificationReceiver"/>
+
+        <provider
+            android:name="com.mercubuanauasmobile.todolist.data.ToDoProvider"
+            android:authorities="com.example.android.todo"
+            android:exported="false" />
+    </application>
+
+</manifest>

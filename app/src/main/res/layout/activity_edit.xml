@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="30dp"
+    android:background="@drawable/listview_activity_edit"
+    android:paddingBottom="50dp">
+
+
+    <TextView
+
+        android:layout_marginLeft="3dp"
+        fontPath="fonts/nunito_light.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Task title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingPrefix" />
+
+    <EditText
+        android:id="@+id/heading"
+        android:fontFamily="sans-serif"
+        android:hint="Give a Short Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:maxLines="2"
+        android:textAlignment="textStart"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"/>
+    <TextView
+        android:layout_marginLeft="3dp"
+        fontPath="fonts/nunito_light.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Task date and Time"
+        tools:ignore="MissingPrefix" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingTop="5dp">
+
+        <Button
+            android:id="@+id/dateButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorDateTimeBackground"
+            android:fontFamily="sans-serif-light"
+            android:onClick="setDateDialog"
+            android:text="SET DATE"
+            android:textColor="@color/colorButtonText"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/timeButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/colorDateTimeBackground"
+            android:fontFamily="sans-serif-light"
+            android:onClick="setTimeDialog"
+            android:text="SET TIME"
+            android:textColor="@color/colorButtonText"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title_message"
+        android:layout_marginLeft="3dp"
+        fontPath="fonts/nunito_light.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Task Description"
+        tools:ignore="MissingPrefix"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:hint="Give a Brief Description ( about 50 words ) "
+        android:textAlignment="textStart"
+        android:paddingTop="10dp"
+        android:textSize="25sp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"/>
+
+    <TextView
+
+        android:layout_marginLeft="3dp"
+        fontPath="fonts/nunito_light.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Add an Event"
+        tools:ignore="MissingPrefix"
+        android:textAppearance="?android:textAppearanceMedium"/>
+    <EditText
+        android:id="@+id/event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:hint="ex. Personal, Work, Study and etc."
+        android:textAlignment="textStart"
+        android:paddingTop="10dp"
+        android:textSize="25sp"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/colorHint"
+        android:textColorHint="@color/colorHint"/>
+
+</LinearLayout>

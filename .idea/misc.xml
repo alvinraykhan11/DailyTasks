@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/alvin/Downloads/Project2021/ToDoApp/app/src/main/res/drawable-xxxhdpi/bg_carddate.xml" value="0.1482084690553746" />
+        <entry key="..\:/Users/alvin/Downloads/Project2021/ToDoApp/app/src/main/res/drawable-xxxhdpi/btn_border.xml" value="0.12395833333333334" />
+        <entry key="..\:/Users/alvin/Downloads/Project2021/ToDoApp/app/src/main/res/drawable/bg_carddate.xml" value="0.1482084690553746" />
+        <entry key="..\:/Users/alvin/Downloads/Project2021/ToDoApp/app/src/main/res/drawable/btn_border.xml" value="0.12395833333333334" />
+        <entry key="..\:/Users/alvin/Downloads/Project2021/ToDoApp/app/src/main/res/layout/activity_edit.xml" value="0.18" />
+        <entry key="..\:/Users/alvin/Downloads/Project2021/ToDoApp/app/src/main/res/layout/activity_list.xml" value="0.16" />
+        <entry key="..\:/Users/alvin/Downloads/Project2021/ToDoApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/alvin/Downloads/Project2021/ToDoApp/app/src/main/res/layout/activity_to_do.xml" value="0.18" />
+        <entry key="..\:/Users/alvin/Downloads/Project2021/ToDoApp/app/src/main/res/layout/listitem.xml" value="0.2" />
+        <entry key="..\:/Users/alvin/Downloads/Project2021/ToDoApp/app/src/main/res/menu/menu_edit.xml" value="0.17" />
+        <entry key="..\:/Users/alvin/Downloads/Project2021/ToDoApp/app/src/main/res/menu/menu_listactivity.xml" value="0.21" />
+        <entry key="..\:/Users/alvin/Downloads/Project2021/ToDoApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.12395833333333334" />
+        <entry key="..\:/Users/alvin/Downloads/Project2021/ToDoApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.12395833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
